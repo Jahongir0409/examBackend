@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/main.css">
+	<title>Admin`s room</title>
+</head>
+<body>
+	<section class="section-admin">
+		<div class="container">
+			<div class="admin-top">
+				<a href="/" class="link-main">
+					.. back to home
+				</a>
+				<h2>Admin`s room</h2>
+				<ion-icon name="person" class="icon"></ion-icon>
+				<img src="img/you-tube-icon.png" alt="">
+				<span>You Tube</span>
+			</div>
+			
+			<form id="formAdd">
+				<h2 class="heading-secondary title"> Add your new video</h2>
+				<label>
+					Video Title
+					<input type="text" id="inputTitle" required placeholder="Your video title . . .">
+				</label>
+				<label>
+					Select video
+					<input type="file" id="inputVideo" required placeholder="Your video title . . .">
+				</label>
+				<div class="btn-wrapper">
+					<button id="btnReset" type="reset"> Clear</button>
+					<button id="btnAdd" type="submit"> Add +</button>
+				</div>
+			</form>
+		</div>
+	</section>
+	<script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+	<script src="js/database.js"></script>
+	<script src="js/admin.js"></script>
+
+</body>
+</html>

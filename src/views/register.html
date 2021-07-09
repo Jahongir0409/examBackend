@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/main.css">
+	<title>Registration</title>
+</head>
+<body>
+	<section class="section-register">
+		<div class="container">
+			<div class="admin-top">
+				<a href="/" class="link-main">
+					.. back to home
+				</a>
+				<h2 >Registration page</h2>
+				<ion-icon name="person" class="icon"></ion-icon>
+				<img src="img/you-tube-icon.png" alt="">
+				<span>You Tube</span>
+			</div>
+			
+			<form id="formReg" action="#">
+				<h2 id="headingTop" class="heading-secondary"> Regsitration Card</h2>
+				<label>
+					Your Username
+					<input type="text" id="inputUsername" required placeholder="Write  username . . .">
+				</label>
+				<label>
+					Your Email Address
+					<input type="email" id="inputEmail" required placeholder="Enter  email . . .">
+				</label>
+				<label>
+					Your password
+					<input type="text" id="inputPassword" required placeholder="Write  password . . .">
+				</label>
+				<label class="label-img">
+                    <input type="file" id="imgInput" required  accept="image/*">
+				</label>
+				<div class="btn-wrapper">
+					<button id="btnReset" type="reset"> Clear</button>
+					<button id="btnAdd" type="submit"> Add +</button>
+                    <a href="./login" class="link-toLogin">Registered before ?</a>
+				</div>
+			</form>
+		</div>
+	</section>
+	<script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+	<script src="./js/request.js"></script>
+    <script src="./js/registration.js"></script>
+</body>
+</html>

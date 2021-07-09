@@ -1,0 +1,22 @@
+@use '_home';
+@use '_admin';
+@use '_modal';
+@use '_register';
+@use '_responsive';
+@use '_login';
+
+html {
+	box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto';
+	background-color: #1A1A1A;
+}

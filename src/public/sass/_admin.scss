@@ -1,0 +1,247 @@
+.section-admin {
+	.container {
+		width: 1366px;
+		margin-right: auto;
+		margin-left: auto;
+		.admin-top {
+			padding:  20px;
+			background-color: #414141;
+			display: flex;
+			align-items: center;
+			.link-main {
+				text-decoration: none;
+				color: white;
+				padding: 10px 15px;
+				border-radius: 10px;
+				background-color: red;
+				font-size: 20px;
+				font-weight: bold;
+				box-shadow: 0 0 5px black;
+			}
+			.link-main:hover {
+				background-color: white;
+				color: red;
+			}
+			h2 {
+				margin: 0;
+				padding: 0;
+				display: inline-block;
+				color: white;
+				margin-left: auto;
+				border-top: 1px solid white;
+				border-bottom: 1px solid white;
+				padding: 5px ;
+				font-size: 32px;
+			}
+			.icon {
+				margin-right: auto;
+				font-size: 30px;
+				color: white;
+			}
+			img {
+				width: 50px;
+				height: 50px;
+			}
+
+			span {
+				font-size: 25px;
+				color: white;
+			}
+		}
+		#formAdd {
+			box-shadow: 0 0 5px white;
+			width: 300px;
+			padding: 10px 25px;
+			background-color: #3D3D3D;
+			margin-right: auto;
+			margin-left: auto;
+			margin-top: 50px;
+			display: flex;
+			flex-direction: column;
+			.heading-secondary {
+				color: white;
+				text-shadow: 0 0 5px red;
+			}
+			label {
+				color: white;
+				display: flex;
+				flex-direction: column;
+
+				input {
+					margin-bottom: 15px;
+					margin-top: 4px;
+					padding: 8px 10px;
+					border: none;
+					outline: none;
+					color: #C7C7C7;
+					border-radius: 5px;
+					background-color: transparent;
+					border-bottom: 1px solid white;
+					// border-top: 1px solid white;
+				}
+				input:placeholder-shown {
+					border-color: teal;
+					color: white;
+					font-style: italic;
+				}
+				input::-webkit-input-placeholder {
+					color: white;
+				}
+			}
+			.btn-wrapper {
+				margin-right: auto;
+				margin-left: auto;
+				#btnReset {
+					width: 70px;
+					padding: 5px;
+					border: none;
+					outline: none;
+					background-color: grey;
+					color: white;
+					border-radius: 7px;
+					box-shadow:  0 0 5px white;
+					margin-right: 10px;
+				}
+				#btnAdd {
+					width: 70px;
+					padding: 5px;
+					border: none;
+					outline: none;
+					background-color: red;
+					color: white;
+					border-radius: 7px;
+					box-shadow:  0 0 5px white;
+				}
+			}
+		}
+	}
+}
+@media only screen and (max-width: 450px) {
+	.section-admin {
+		.container {
+			width: 450px;
+			.admin-top {
+				padding:  10px;
+				background-color: #414141;
+				.link-main {
+					padding: 5px 7px;
+					border-radius: 10px;
+					background-color: red;
+					font-size: 14px;
+					font-weight: normal;
+					box-shadow: 0 0 5px black;
+				}
+				.link-main:hover {
+					background-color: white;
+					color: red;
+
+
+				}
+				h2 {
+					margin: 0;
+					padding: 0;
+					display: inline-block;
+					color: white;
+					margin-left: auto;
+					border-top: 1px solid white;
+					border-bottom: 1px solid white;
+					padding: 5px ;
+					font-size: 20px;
+					font-weight: normal;
+				}
+				.icon {
+					margin-right: auto;
+					font-size: 18px;
+					color: white;
+				}
+				img {
+					width: 30px;
+					height: 30px;
+				}
+
+				span {
+					font-size: 18px;
+				}
+			}
+			#formAdd {
+				box-shadow: 0 0 5px white;
+				width: 260px;
+				padding: 7px 15px;
+				background-color: #3D3D3D;
+				margin-right: auto;
+				margin-left: auto;
+				margin-top: 50px;
+				display: flex;
+				flex-direction: column;
+				.heading-secondary {
+					font-size: 22px;
+					color: white;
+					text-shadow: 0 0 5px red;
+				}
+				label {
+					font-size: 15px;
+					input {
+				}
+				input:placeholder-shown {
+					border-color: teal;
+					color: white;
+					font-style: italic;
+				}
+				input::-webkit-input-placeholder {
+					color: white;
+					}
+				}
+				.btn-wrapper {
+					margin-right: auto;
+					margin-left: auto;
+					#btnReset {
+						width: 60px;
+						padding: 5px;
+						border: none;
+						outline: none;
+						background-color: grey;
+						color: white;
+						border-radius: 7px;
+						box-shadow:  0 0 5px white;
+						margin-right: 10px;
+					}
+					#btnAdd {
+						width: 60px;
+						padding: 5px;
+						border: none;
+						outline: none;
+						background-color: red;
+						color: white;
+						border-radius: 7px;
+						box-shadow:  0 0 5px white;
+					}
+				}
+			}
+		}
+	}
+}
+@media only screen and (max-width: 420px) {
+	.container {
+		max-width: 420px;
+	}
+}
+@media only screen and (max-width: 400px) {
+	.container {
+		max-width: 400px;
+	}
+}
+@media only screen and (max-width: 390px) {
+	.container {
+		max-width: 390px;
+	}
+}
+@media only screen and (max-width: 380px) {
+	.container {
+		max-width: 380px;
+	}
+}
+@media only screen and (max-width: 370px) {
+	.container {
+		max-width: 370px;
+	}
+}
